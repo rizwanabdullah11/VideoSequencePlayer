@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+Seamless Video Streaming with Dynamic Preloading
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based video player that ensures smooth playback by dynamically preloading and switching between video segments seamlessly.
 
-## Available Scripts
+Features:
+- Seamless Video Transition – Uses alternating <video> elements for a buffer-free experience.
+- Dynamic Preloading – Preloads the next video in the background to ensure smooth playback.
+- Optimized Performance – Minimizes unnecessary data usage while ensuring seamless streaming.
+- Error Handling – Ensures continuous playback even in case of segment failures.
 
-In the project directory, you can run:
+Tech Stack: 
+React.js, JavaScript, Tailwind CSS
 
-### `npm start`
+Deployment: https://video-sequence-player.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Setup & Installation: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the repository:
 
-### `npm test`
+git clone https://github.com/rizwanabdullah11/VideoSequencePlayer.git
+cd VideoSequencePlayer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install dependencies:
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open localhost:3000 in your browser.
 
-### `npm run eject`
+Contribution:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feel free to fork the repo, open issues, or submit pull requests to enhance the project!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#reactjs #javascript #videostreaming #frontenddeveloper #mern #innovation #juniorsoftwareengineer
